@@ -1,0 +1,50 @@
+.notification {
+  background-color:white;
+  color: black;
+  text-decoration: underline;
+  /*padding: 15px 26px;*/
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  text-decoration: underline;
+  font-family:'Roboto Condensed', sans-serif;
+}
+
+.notification:hover {
+  text-decoration: underline;
+}
+
+.badge {
+  position: absolute;
+  top: -50px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: green;
+ 
+}
+
+div.upcoming{
+
+background-color: white;
+width: 420px;
+height: 350px;
+overflow-x: hidden;
+overflow-y: auto;
+text-align: justify;
+}
+
+div.tabledata{
+  margin-top: 10px;
+  font-style: oblique;
+  font-family: cursive;
+
+}
+div.tabledata :hover{
+  font-style: italic;
+  font-family: cursive;
+  color: blue;
+}
+div.tablewidth{
+  width: 450px;
+}
